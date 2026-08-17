@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#090909">
+<meta name="description" content="AmirStudio — طراحی و توسعه تجربه‌های دیجیتال با نگاه دقیق، مینیمال و ماندگار.">
+<title>AmirStudio — Design · Build · Elevate</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600&family=Cormorant+Garamond:wght@300;400;500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="grain"></div>
+<header class="header">
+  <a class="brand" href="#home" aria-label="AmirStudio">
+    <img src="assets/amir-studio-logo.png" alt="AmirStudio logo">
+    <span>AMIR<span>STUDIO</span></span>
+  </a>
+  <div class="header-actions" dir="ltr">
+    <button class="settings-btn" id="settingsToggle" aria-label="تنظیمات" aria-expanded="false">◌</button>
+    <button class="menu-btn" id="menuToggle" aria-label="باز کردن منو" aria-expanded="false"><i></i><i></i></button>
+  </div>
+</header>
+
+<div class="backdrop" id="backdrop"></div>
+<nav class="menu-overlay" id="menuOverlay" aria-hidden="true">
+  <button class="close-menu" id="closeMenu" aria-label="بستن">×</button>
+  <div class="menu-inner">
+    <div class="menu-head"><span>AMIR STUDIO</span><small>MENU</small></div>
+    <a href="#home">خانه</a>
+    <a href="#works">نمونه‌کارها</a>
+    <a href="#about">درباره</a>
+    <a href="#services">خدمات</a>
+    <a href="#contact">تماس و پشتیبانی</a>
+  </div>
+</nav>
+
+<aside class="settings-panel" id="settingsPanel" aria-hidden="true">
+  <div class="settings-head"><span>تنظیمات</span><button id="closeSettings" aria-label="بستن">×</button></div>
+  <div class="setting-row"><span>زبان</span><div class="language-buttons"><button class="active" data-lang="fa">فارسی</button><button data-lang="en">English</button></div></div>
+</aside>
+
+<main>
+<section class="hero" id="home">
+  <div class="hero-orbit"></div>
+  <div class="hero-logo"><img src="assets/amir-studio-logo.png" alt="AmirStudio"><span>AMIR<span>STUDIO</span></span></div>
+  <div class="hero-copy">
+    <p class="kicker">یک استودیو، یک نگاه مشخص</p>
+    <h1>ایده‌ها را به <em>تجربه</em> تبدیل می‌کنیم.</h1>
+    <p class="hero-sub">طراحی و توسعه‌ی تجربه‌های دیجیتال؛ آرام، دقیق و مرحله‌به‌مرحله.</p>
+    <div class="hero-line"></div>
+    <div class="hero-links"><a href="#works">مشاهده‌ی پروژه‌ها <b>↗</b></a><a href="#contact">شروع یک گفت‌وگو <b>↗</b></a></div>
+  </div>
+  <div class="scroll-note">SCROLL TO EXPLORE</div>
+</section>
+
+<section class="intro section">
+ <div class="section-label">01 / APPROACH</div>
+ <div class="intro-grid"><h2>از ایده تا اجرا.</h2><p>هر پروژه از یک مسئله‌ی واقعی شروع می‌شود. آن را ساده می‌کنیم، ساختار می‌دهیم و به یک تجربه‌ی دیجیتال قابل استفاده تبدیل می‌کنیم.</p></div>
+</section>
+
+<section class="works section" id="works">
+ <div class="section-top"><div><div class="section-label">02 / SELECTED WORKS</div><h2>چیزهایی که ساخته‌ایم.</h2></div><span class="section-index">03</span></div>
+ <div class="work-list">
+  <a class="work-card" href="https://Amir-Studio.github.io/Swiss-Gallery/" target="_blank" rel="noopener"><div class="work-visual swiss"><span>SWISS<br>GALLERY</span><small>01</small></div><div class="work-meta"><span>Swiss Gallery</span><small>Web Experience ↗</small></div></a>
+  <a class="work-card" href="https://Amir-Studio.github.io/Luxury-Caffee/" target="_blank" rel="noopener"><div class="work-visual coffee"><span>LUXURY<br>CAFFEE</span><small>02</small></div><div class="work-meta"><span>Luxury Caffee</span><small>Web Experience ↗</small></div></a>
+  <a class="work-card" href="https://Amir-Studio.github.io/DelarisCake/" target="_blank" rel="noopener"><div class="work-visual cake"><span>DELARIS<br>CAKE</span><small>03</small></div><div class="work-meta"><span>Delaris Cake</span><small>Web Experience ↗</small></div></a>
+ </div>
+</section>
+
+<section class="about section" id="about">
+ <div class="section-label">03 / THE STUDIO</div>
+ <div class="about-grid"><h2>یک استودیو، یک نگاه.</h2><div><p class="lead">AmirStudio جایی میان طراحی، تکنولوژی و جزئیات شکل گرفته است.</p><p>ما به جای شلوغ کردن تجربه، روی چیزهایی تمرکز می‌کنیم که باید درست باشند: ساختار، تایپوگرافی، حرکت و حس.</p></div></div>
+ <div class="principles"><div><span>01</span><strong>سادگی</strong><p>هر عنصر باید دلیلی برای حضور داشته باشد.</p></div><div><span>02</span><strong>شخصیت</strong><p>هر پروژه زبان بصری خودش را پیدا می‌کند.</p></div><div><span>03</span><strong>جزئیات</strong><p>کیفیت در چیزهایی ساخته می‌شود که شاید در نگاه اول دیده نشوند.</p></div></div>
+</section>
+
+<section class="services section" id="services">
+ <div class="section-label">04 / CAPABILITIES</div>
+ <div class="service-list">
+  <div class="service-item"><span>01</span><div><h3>طراحی UI / UX</h3><p>رابط‌هایی ساده، دقیق و متناسب با هویت هر پروژه.</p></div></div>
+  <div class="service-item"><span>02</span><div><h3>طراحی وب</h3><p>سایت‌های واکنش‌گرا با تمرکز روی تجربه و جزئیات.</p></div></div>
+  <div class="service-item"><span>03</span><div><h3>توسعه فرانت‌اند</h3><p>تبدیل طراحی به تجربه‌ای سریع، تمیز و زنده.</p></div></div>
+  <div class="service-item"><span>04</span><div><h3>هویت دیجیتال</h3><p>ساخت یک زبان بصری منسجم برای حضور آنلاین برند.</p></div></div>
+ </div>
+</section>
+
+<section class="contact section" id="contact">
+ <div class="section-label">05 / CONTACT</div>
+ <div class="contact-grid"><div><h2>بیایید چیزی<br><em>درست</em> بسازیم.</h2><p>برای شروع یک پروژه یا دریافت مشاوره، راه ارتباطی مورد علاقه‌تان را انتخاب کنید.</p></div>
+ <div class="contact-card"><div class="contact-label-row"><span>شماره تماس:</span><div class="phone-row"><a class="phone" href="tel:09025131506">۰۹۰۲۵۱۳۱۵۰۶</a><div class="socials">
+  <a class="social" href="https://wa.me/989025131506" target="_blank" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24"><path d="M20.5 3.5A11.85 11.85 0 0 0 12.06 0C5.5 0 .16 5.34.16 11.9c0 2.1.55 4.15 1.6 5.96L.1 24l6.28-1.63a11.86 11.86 0 0 0 5.68 1.45h.01c6.56 0 11.9-5.34 11.9-11.9 0-3.18-1.24-6.17-3.47-8.42Zm-8.44 18.3h-.01a9.88 9.88 0 0 1-5.03-1.38l-.36-.21-3.73.97 1-3.64-.23-.37a9.87 9.87 0 0 1-1.52-5.27C2.18 6.44 6.61 2 12.06 2a9.88 9.88 0 0 1 7.02 2.91 9.88 9.88 0 0 1 2.9 7.03c0 5.45-4.43 9.86-9.92 9.86Zm5.41-7.39c-.3-.15-1.77-.87-2.04-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.95 1.17-.17.2-.35.22-.65.07-.3-.15-1.25-.46-2.39-1.47-.88-.78-1.48-1.74-1.65-2.04-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.49s1.07 2.89 1.22 3.09c.15.2 2.1 3.21 5.08 4.5.71.31 1.26.49 1.69.63.71.23 1.35.2 1.86.12.57-.09 1.77-.72 2.02-1.42.25-.7.25-1.3.17-1.42-.07-.12-.27-.2-.57-.35Z"/></svg></a>
+  <a class="social" href="https://rubika.ir/SuperGenius" target="_blank" rel="noopener" aria-label="Rubika"><span class="rubika-icon">R</span></a>
+  <a class="social" href="https://splus.ir/AmirStudioSite" target="_blank" rel="noopener" aria-label="Splus"><span class="splus-icon">S</span></a>
+ </div></div></div><a class="email" href="mailto:amir0website@gmail.com">Gmail: amir0website@gmail.com</a></div></div>
+</section>
+</main>
+<footer class="footer"><div>AMIR<span>STUDIO</span></div><span>Design · Build · Elevate</span><span>© 2026</span></footer>
+<script src="script.js"></script>
+</body>
+</html>
+
+<style>
+.phone-number { font-size: 1.08em; letter-spacing: 0.02em; }
+</style>
